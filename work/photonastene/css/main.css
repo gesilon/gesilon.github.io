@@ -1,0 +1,416 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+}
+
+
+
+/*===========*/
+
+
+*{
+	padding:0; margin:0;
+	list-style-type: none;
+}
+
+.main{
+	width: 951px; 
+	margin: 0 auto;
+	}
+
+.main h2{
+		text-align: left;
+		font: 24px "Rex Bold";
+		color: #2D2D2D;
+		padding-bottom: 20px;
+		border-bottom: 2px solid #72645f;
+}
+
+
+
+/*=== HEADER ===*/
+
+.logo, .phone, .help, .korzina +h2{
+	display: inline-block;
+}
+.head h2{
+	float: right;
+	margin: 0 0 0 15px;
+	border-bottom: none;
+}
+.logo{
+	margin: 20px 0;
+}
+.logo h2{
+	font:  28px "ProximaNovaBlack";
+	color: #2D2D2D;
+	margin-top: 15px;
+	text-decoration: none;
+}
+.logo span{
+	font: 15px "ProximaNovaRegular";
+	color: #646464;
+}
+.phone {
+	margin-left: 150px;	
+	margin-top: 35px;
+}
+.phone h2{
+	font: bold 18px "ProximaNovaBold";
+	color: #2D2D2D;
+	margin-top: 6px;
+}
+.phone span{
+	font: normal 18px "ProximaNovaRegular";
+	color: #646464;
+	margin-top: 6px;
+}
+.help{
+	margin-left: 80px;	
+	font: 15px "ProximaNovaBold";
+	color: #2D2D2D;
+}
+.help h2 a{
+	font: 15px "ProximaNovaBold";
+	color: #2D2D2D;
+}
+.help h2 a:hover{
+	font: 15px "ProximaNovaBold";
+	color: #cc5245;
+	margin-top: 9px;
+}
+.korzina{
+	float: right;
+	margin-top: 41px;
+}
+.korzina a{
+	font: 14px "ProximaNovaBold";
+	color: #2D2D2D;
+	margin-top: 9px;
+}
+.korzina a:hover{
+	font: 14px "ProximaNovaBold";
+	color: #cc5245;
+	margin-top: 9px;
+}
+
+
+/*=== MENU ===*/
+.main-menu{
+	display: inline-block;
+	border-top: 2px solid #72645f;
+	border-bottom: 2px solid #72645f;
+}
+.menu li{
+	float: left;
+	display: inline-block;
+	padding: 17px 44.7px;
+}
+.menu li a{
+	text-decoration: none;
+	font: bold 18px "Rex Light";
+	font-weight: bold;
+	color: #2d2d2d;
+	text-transform: uppercase;
+}
+.menu li a:hover{
+	text-decoration: none;
+	font: bold 18px "Rex Light";
+	color: #cc5245;
+}
+
+/*CONTENT*/
+
+	/*SLIDER MAIN*/
+	#owl-carousel-main{
+		margin-top: 4px;
+		/*остальные настройки в файле owl.theme.default*/
+	}
+	
+
+
+	/*КАТЕГОРИИ*/
+
+	.kategor li{
+	display: inline-block;
+	float: left;
+	background: url("/img/bg-kategor.png");
+	margin: 12px 6.3px;
+	height: 180px;
+	width: 180px;
+	padding: 140px 20px 20px 30px;
+	text-align: center;
+	}
+	.kategor li:first-child{
+		margin-left: 0;
+	}
+	.kategor li:last-child{
+		margin-right: 0;
+		padding-top: 117px;
+	}
+	.kategor li a{
+		text-transform: uppercase;
+		text-decoration: none;
+		font: bold 15px "ProximaNovaRegular";
+		color: #2D2D2D;
+
+	}
+	.kategor li a:hover{
+		text-transform: uppercase;
+		text-decoration: none;
+		font: bold 15px "ProximaNovaRegular";
+		color: #cc5245;
+	}
+	.kategor li img{
+		position: absolute;
+	}
+
+	.kat-img1{		
+		margin: -120px -20px 0 -33px ;
+		text-align: center;		
+	}
+
+	.kat-img2{
+		margin: -120px -20px 0 -38px ;
+		text-align: center;
+	}
+
+
+	.kat-img3{
+		margin: -120px -20px 0 -17px ;
+		text-align: center;
+	}
+
+
+	.kat-img4{
+		margin: -120px -20px 0 -14px ;
+		text-align: center;
+	}
+
+
+	.kat-img5{
+		margin: -90px -20px 0 1px ;
+		text-align: center;
+	}
+
+
+
+	/*ТИПОВЫЕ РАЗМЕРЫ*/
+	.type-size{
+		margin-top: 243px;
+	}
+
+
+
+	/*SLIDER 2*/
+	#owl-carousel-main-2{
+		height: 360px;
+		text-align: center;
+		margin-top: 13px;
+	}
+
+		.slider-blocks {
+			margin: 0;
+			padding-top: 13px;
+			display: inline-block;
+			width: 233px;
+			height: 350px;
+			/*background-color: #BA3FBF;	*/
+			vertical-align: middle;
+			overflow: hidden;
+		}
+
+		.slider-blocks img{
+			display: block;
+			margin: 0 auto;
+			height: 205px;
+			margin-bottom: 20px;
+		}
+
+		.slider-blocks p{
+			display: block;
+			text-align: center;
+			font: 20px "ProximaNovaLight";
+			color: #2d2d2d;
+		}
+
+		.slider-blocks span{
+			display: block;
+			text-align: center;
+			font: 18px "ProximaNovaBold";
+			color: #cc5245;
+		}
+
+
+
+
+/*МАТЕРИАЛЫ ПОСТЕРОВ*/
+.material-poster{	
+	text-align: center;
+}
+
+	.sider-block2{
+		display: inline-block;
+		margin-top: 20px;
+	}
+
+	.sider-block2 img{
+		text-align: center;
+		margin: 2px;
+	}
+
+
+
+
+/*ТЕКСТ: ФОТО НА СТЕТЕ...*/
+
+.text-wraper{
+	margin-top: 30px;
+
+	-webkit-column-count: auto;
+	-moz-column-count: auto;
+	column-count: auto;
+	column-width: 400px;
+			
+/*	-webkit-columns: 200px 2;
+	-moz-columns: 200px 2;
+	columns: 200px 2;  */ 
+	
+	-webkit-column-gap: 30px;
+	-moz-column-gap: 30px;
+	column-gap: 30px;
+		
+	color: #646464;
+	font: 15px "ProximaNovaRegular";
+}
+.text-wraper p{
+		padding-top: 6px;
+		padding-bottom: 11px;
+}
+
+		.zagolovok {			
+			margin-top: 0;
+			text-transform: uppercase;
+			font: 60px "Rex Bold";
+			color: #2D2D2D;	
+		}
+
+
+
+/* ========= FOOTER ========= */
+
+.footer-wrap{
+	/*background: #f5f5f6;*/
+	background-image: url(../img/footer-bg.jpg);
+	height: 292px;
+	margin-top: 58px;
+}
+	.footer-content{
+		width: 951px;
+		height: 100%;
+		margin: 0 auto;
+	}
+	.foot-menu{
+		vertical-align: top;
+		display: inline-block;	
+	}
+	.spisok li{
+		display: list-item;
+		list-style-type: disc;
+	}
+	.foot-menu p{
+		padding-top: 35px;
+		font: 15px "Rex Bold";
+		font-weight: 600;
+		color: #2D2D2D;
+		text-transform: uppercase;
+	}
+	.footer-content ul{
+		width: 185px;
+		height: 162px;
+		display: inline-block;
+		padding-top: 20px;
+		}
+		.footer-content ul>li{
+			font: 13px "ProximaNovaRegular";
+			color: #878787;		
+			padding-bottom: 11px;	
+		}
+
+		.img-contakt{
+		}
+		.img-contakt img{
+			padding-right: 11px;
+			float: left;
+		}
+		.img-contakt span{
+			display: inline-block;
+			font: 13px "ProximaNovaRegular";
+			color: #878787;		
+			padding-bottom: 11px;	
+		}
+
+		.ft{
+			border-bottom: 1px solid #fff;
+		}
+
+
+
+.txt-copy{
+	width: 100%;
+	display: inline-block;
+	padding-top: 23px;
+	border-top: 1px solid #e0e3e7;
+}
+.txt-copy p{
+	display: inline-block;
+	font: 13px "ProximaNovaRegular";
+	color: #878787;
+}
+.txt-copy img{
+	display: inline-block;
+	float: right;
+	padding-left: 17px;
+}
+
+
+/*UP*/
+/*#top{
+	position: absolute;
+	top: 95%;
+	left: 5%;
+	padding: 50px;
+	font-size: 88px;
+	color: #cc5245;
+}*/
+
+
+
+
+
+
+
+
