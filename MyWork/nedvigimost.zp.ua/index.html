@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8" />
+    <title>Заголовок</title>
+    <meta name="description" content="" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="stylesheet" href="libs/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="libs/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+    <link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
+    <link rel="stylesheet" href="libs/countdown/jquery.countdown.css" />
+    <link rel="stylesheet" href="./libs/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="./libs/owl-carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css" />
+</head>
+
+<body>
+
+
+<div class="header">
+    <div class="bg-grad">
+        <div class="wrapper">
+            <div class="logo">
+                <img src="../img/Logo.png" alt="Logo">
+                <a href="#">
+                    Недвижимость Запорожья
+                </a>
+                <p>
+                    Сдать или взять в аренду недорого!
+                </p>
+            </div>
+            <div class="phone">
+                Звоните Нам: (214) 227-7669
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- todo Сделай в меню при наведении картинку -->
+
+<div class="nav">
+    <div class="wrapper">
+        <ul>
+            <li><a href="#">Домой</a></li>
+            <li><a href="#" class="active">О Нас</a></li>
+            <li><a href="#">Арендаторам</a></li>
+            <li><a href="#">Владельцам</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li class="register"><a href="#">Войти </a></li>
+            <li class="register">&ensp;/&ensp;</li>
+            <li class="register"><a href="#">Регистрация</a></li>
+        </ul>
+    </div>
+</div>
+
+
+<!--SLIDER + TAB-->
+<div class="slid-tab">
+    <div class="wrapper">
+        <div class="slider">
+            <div class="owl-carousel owl-theme">
+                <div>
+                    <img src="img/Slide1.jpg" height="307" width="490" alt="">
+                    <span class="slid-text">
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    </span>
+                </div>
+                <div>
+                    <img src="http://lorempixel.com/490/320/city/4" alt="">
+<span class="slid-text">
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    </span><span class="slid-text">
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    </span>                </div>
+                <div>
+                    <img src="http://lorempixel.com/490/320/city/5" alt="">
+<span class="slid-text">
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    </span><span class="slid-text">
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    </span>                </div>
+                <div>
+                    <img src="http://lorempixel.com/490/320/city/6" alt="">
+<span class="slid-text">
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    </span><span class="slid-text">
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    </span>                </div>
+                <div>
+                    <img src="http://lorempixel.com/490/320/city/1" alt="">
+<span class="slid-text">
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    </span><span class="slid-text">
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    </span>                </div>
+            </div>
+        </div>
+
+
+       <!--TAB-->
+        <div class="tab">
+
+            <div class="menu1">
+                <br id="tab2"/>
+                <br id="tab3"/>
+                <a href="#tab1" id="tab1-header">Арендаторам</a>
+                <a href="#tab2" id="tab2-header">Владельцам</a>
+                <div id="tab1-body">
+                    <form action="" id="tab-form">
+                        <span>Адресс, Страна, Город, Код:</span><br>
+                        <input id="tab-form-search" type="text" name="search" placeholder="Пример: Украина, Запорожье, 30300">
+                        <p><input id="tab-form-checkbox" type="checkbox" checked > включая в пригородах</p>
+                        <p class="r"> Тип Недвижимости:
+                            <!-- todo сделать красивый выпадющий список -->
+                            <select class="type-nedvij" name="select" form="tab-form" >
+                                <option selected="selected" class="holder">Выберите</option>
+                                <option value="house">Дом</option>
+                                <option value="flat">Квартира</option>
+                                <option value="cottage">Коттедж</option>
+                            </select>
+                        </p>
+                        <p class="r">Комнаты:
+                            <!-- todo сделать красивый выпадющий список -->
+                            <select class="type-nedvij" name="select" form="tab-form" >
+                                <option selected="selected" class="holder">Выберите</option>
+                                <option value="house">1 - комната</option>
+                                <option value="flat">2х - комнатная</option>
+                                <option value="cottage">3х - комнатная</option>
+                                <option value="cottage">4х - комнатная</option>
+                            </select>
+                        </p>
+                        <input type="submit" class="button-search" value="Поиск" />
+
+                    </form>
+                </div>
+
+                <!--todo Сделать вторую вкладку-->
+                <div id="tab2-body">вкладка 2</div>
+             </div>
+
+
+        </div>
+    </div>
+</div>
+
+<!--info blocks-->
+<div class="info-blocks">
+    <div class="wrapper">
+        <div class="i-blс"><h2><img src="/img/home.png" alt="">Купить жилье</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias architecto aspernatur culpa, doloribus ipsam iste nam perspiciatis quod temporibus voluptatibus?</p>
+        </div>
+        <div class="i-blс"><h2><img src="/img/home.png" alt="">Продать жилье</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aspernatur dolore minima modi odio placeat quod, sunt temporibus! Deserunt laborum minus similique.</p>
+        </div>
+        <div class="i-blс"><h2><img src="/img/home.png" alt="">Арендовать жилье</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum unde, voluptas. Aliquid, consectetur culpa deleniti dolorem eligendi facilis incidunt nam quos vel voluptatibus!</p>
+        </div>
+
+    </div>
+</div>
+
+
+
+<!--GALLERY-->
+<div class="gallery">
+    <div class="wrapper">
+        <div id="photo-wall">
+            <ul>
+                <li> <a href="">
+                        <img src="img/gall-1.jpg" alt="">
+                        <p>
+                            <span>4605 Bayonne Court</span><br />Arlington, TX 76016
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </p>
+
+
+                </a>
+                </li>
+                <li> <a href="">
+                        <img src="img/gall-2.jpg" alt="">
+                    <p>
+                        <span>4605 Bayonne Court</span><br />Arlington, TX 76016
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </p>
+                     </a>
+                </li>
+                <li> <a href="">
+                        <img src="img/gall-3.jpg" alt="">
+                    <p>
+                        <span>4605 Bayonne Court</span><br />Arlington, TX 76016
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </p>
+                     </a>
+                </li>
+                <li> <a href="">
+                        <img src="img/gall-4.jpg" alt="">
+                    <p>
+                        <span>4605 Bayonne Court</span><br />Arlington, TX 76016
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </p>
+                     </a>
+                </li>
+                <li> <a href="">
+                        <img src="img/gall-5.jpg" alt="">
+                    <p>
+                        <span>4605 Bayonne Court</span><br />Arlington, TX 76016
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </p>
+                     </a>
+                </li>
+                <li> <a href="">
+                        <img src="img/gall-6.jpg" alt="">
+                    <p>
+                        <span>4605 Bayonne Court</span><br />Arlington, TX 76016
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </p>
+                     </a>
+                </li>
+                <li> <a href="">
+                        <img src="img/gall-7.jpg" alt="">
+                    <p>
+                        <span>4605 Bayonne Court</span><br />Arlington, TX 76016
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </p>
+                     </a>
+                </li>
+                <li> <a href="">
+                        <img src="img/gall-8.jpg" alt="">
+                    <p>
+                        <span>4605 Bayonne Court</span><br />Arlington, TX 76016
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </p>
+                     </a>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+</div>
+
+
+<!--SIGN-->
+<div class="blk-sign">
+    <div class="wrapper">
+        <div class="blk1">
+            <form>
+                <h4>Войти</h4>
+                <input type="text" placeholder="Имя">
+                <input type="text" placeholder="Пароль">
+                <button type="submit">Войти</button>
+            </form>
+        </div>
+        <div class="blk2">
+            <form>
+                <h4>Подписатся</h4>
+                <input type="email" name="email" id="email" placeholder="Ваш email">
+                <button type="submit">Подписатся</button>
+            </form>
+        </div>
+        <div class="blk3">
+            <!--todo сделать стрелку как в макете-->
+            <span id="regist1">Еще не зарегистрирован?</span>
+            <span id="regist2"><a href="#">Зарегистроватся</a></span>
+        </div>
+        <div class="blk4">
+            <a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i>
+            </a>
+            <a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-google-plus-square"
+                    aria-hidden="true"></i></a>
+
+        </div>
+    </div>
+</div>
+
+
+<!--FOOTER-->
+<div class="footer">
+    <div class="wrapper">
+        <div class="f-blk1">
+            <h5>О нас</h5>
+            <ul>
+                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+            </ul>
+        </div>
+        <div class="f-blk2">
+            <h5>Lorem</h5>
+            <ul>
+                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+            </ul>
+        </div>
+        <div class="f-blk3">
+            <h5>Lorem</h5>
+            <ul>
+                <li><a href="#">Lorem ipsum dolor.</a></li>
+                <li><a href="#">Lorem ipsum dolor.</a></li>
+                <li><a href="#">Lorem ipsum dolor.</a></li>
+                <li><a href="#">Lorem ipsum dolor.</a></li>
+                <li><a href="#">Lorem ipsum dolor.</a></li>
+                <li><a href="#">Lorem ipsum dolor.</a></li>
+            </ul>
+        </div>
+        <div class="f-blk4">
+            <h5>Lorem</h5>
+            <ul>
+                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+    <!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+    <script src="libs/jquery/jquery-3.2.1.min.js"></script>
+    <script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+    <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+    <script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
+    <script src="libs/scrollto/jquery.scrollTo.min.js"></script>
+    <script src="libs/owl-carousel/owl.carousel.min.js"></script>
+    <script src="libs/countdown/jquery.plugin.js"></script>
+    <script src="libs/countdown/jquery.countdown.min.js"></script>
+    <script src="libs/countdown/jquery.countdown-ru.js"></script>
+    <script src="libs/landing-nav/navigation.js"></script>
+    <script src="libs/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="js/common.js"></script>
+
+    <!-- Yandex.Metrika counter -->
+    <!-- /Yandex.Metrika counter -->
+    <!-- Google Analytics counter -->
+    <!-- /Google Analytics counter -->
+</body>
+
+</html>
